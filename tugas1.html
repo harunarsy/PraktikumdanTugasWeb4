@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Tugas1</title>
+<!--untuk memanggil jquery-->
+<script src="jquery-3.6.0.min.js"></script>
+<!--untuk menampilkan button function hide and show-->
+<script type="text/javascript">
+$(document).ready(function(){
+$(".hide").click(function() {$("#pic").hide("slow") });
+$(".show").click(function() {$("#pic").show("slow") });
+});
+$(document).ready(function(){
+$(".hide1").click(function() {$("#pic1").hide("slow") });
+$(".show1").click(function() {$("#pic1").show("slow") });
+});
+</script>
+</head>
+<body>
+<button class="hide">Sembunyikan</button>
+<button class="show">Tampilkan</button>
+<p><img id="pic"src="mickey.png"></p></body>
+
+<button class="hide1">Sembunyikan</button>
+<button class="show1">Tampilkan</button>
+<p><img id="pic1"src="donald.png"></p></body>
+</html>
